@@ -2,7 +2,7 @@
 
 This is an ESLint plugin to disable JavaScript.
 
-Why? OK, here is some possible reasons:
+Why? OK, here are some possible reasons:
 - your code sucks
 - JavaScript sucks
 - you suck
