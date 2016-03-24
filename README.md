@@ -35,7 +35,7 @@ Here's a sample ESLint configuration file that activates these rules:
     "no-js"
   ],
   "rules": {
-    "no-js": 2,
+    "no-js/no-js": 2,
   }
 }
 ```
