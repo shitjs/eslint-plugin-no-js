@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-js",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "ESLint plugin to disable JavaScript.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "keywords": [
     "eslint",
     "eslintplugin",
-    "no-js"
+    "no-js",
+    "no-jsx"
   ],
   "author": "Sergey Rubanov",
   "license": "WTFPL",

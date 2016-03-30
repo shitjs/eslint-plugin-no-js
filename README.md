@@ -14,7 +14,6 @@ Why? OK, here are some possible reasons:
 `npm install eslint-plugin-no-js --save-dev`
 
 ## ESLint Rules
-There is only one rule in the plugin:
 
 ### no-js
 
@@ -28,6 +27,10 @@ There's no reason to use JavaScript.
 
 No really! Just [try it](http://jsbin.com/pelitu/1/edit?js,output)!
 
+### no-jsx
+
+JSX is for PHP-lovers. We don't need that crap!
+
 ## Sample Configuration File
 
 Here's a sample ESLint configuration file that activates these rules:
@@ -39,6 +42,7 @@ Here's a sample ESLint configuration file that activates these rules:
   ],
   "rules": {
     "no-js/no-js": 2,
+    "no-js/no-jsx": 2
   }
 }
 ```
