@@ -7,7 +7,7 @@ module.exports = {
     'no-js': function(context) {
       return {
         Program: function(node) {
-          if (path.extname(context.getFilename()) === '.js') {
+          if (path.extname(context.getFilename()).match(/jsx?$/)) {
             context.report(node, 'You are attempting to use JavaScript. U MAD?');
           }
         }
